@@ -19,7 +19,7 @@
 }
 
 * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0;
     font-family: 'Roboto', sans-serif;
     
@@ -60,6 +60,7 @@ nav ul {
     list-style: none;
 	margin: 0;
 	padding: 0;
+    width: 300px;
 }
 
 nav li {
@@ -97,11 +98,15 @@ nav a {
     margin-top: 10px;
 }
 
+.jumbotron picture img{
+    border-radius: 5px;
+}
+
 .jumbotron p {
     font-size: 19px;
     color: #e5e7eb;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .random-info {
@@ -109,26 +114,46 @@ nav a {
     margin-bottom: 50px;
 }
 
+.random-info h4 {
+    font-size: 36px;
+    color: #1f2937;
+
+}
+
 .random-info .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
     
 }
 
 .random-info .container div {
     padding: 10px;
-    flex: 1;
+    width: 150px;
+    margin: 20px 10px;
+    
+}
+
+.random-info .container div img {
+    border-radius: 5px;
+    border: 2px solid #3992f6;
+    
 }
 
 .quote {
-    padding: 100px 150px;
+    padding: 100px 200px;
     font-family: 'Roboto', sans-serif;
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
     margin-bottom: 50px;
+    
 
+}
+
+.quote div {
+    width: 720px;
 }
 
 .quote-author {
@@ -142,7 +167,7 @@ nav a {
     display: flex;
     background-color: #3992f6;
     margin: 50px 100px;
-    padding: 50px;
+    padding: 50px 100px;
     border-radius: 5px;
     justify-content: space-between;
 }
@@ -159,12 +184,7 @@ nav a {
     color: #e5e7eb;
 }
 
-.call-to-action button {
-    border-color: #e5e7eb;
-    
-}
-
-button {
+.button-link {
     background-color: #3992f6;
     border-radius: 5px;
     color: #e5e7eb;
@@ -172,6 +192,15 @@ button {
     padding: 5px 25px;
     cursor: pointer;
     text-decoration: none;
+    border: 0;
+}
+
+.call-to-action .button-link {
+    border: 2px solid #e5e7eb;
+    align-self: center;
+  
+ 
+    
 }
 
 .information-header {
