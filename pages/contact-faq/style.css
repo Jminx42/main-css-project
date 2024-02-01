@@ -8,6 +8,7 @@ ul {
 
 .faq-container {
   max-width: 800px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -24,11 +25,33 @@ ul {
 }
 
 .faq-question {
+  width: 100%;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: transparent;
+  border-radius: 0;
+  color: unset;
+  padding: 0;
+  border: none;
+  transition: all 0.3s;
+}
+
+.faq-question h3 {
   font-size: 20px;
+}
+
+.faq-question i {
+  transition: all 0.3s;
+}
+
+.faq .faq-question:focus ~ .faq-answer {
+  display: inline-block;
+}
+
+.faq .faq-question:focus i {
+  transform: rotate(45deg);
 }
 
 .faq-question i {
@@ -46,9 +69,4 @@ ul {
 }
 
 .faq.open .faq-question i {
-  transform: rotate(45deg);
-}
-
-.faq.open .faq-answer {
-  display: inline-block;
 }
