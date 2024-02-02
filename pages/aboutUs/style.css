@@ -30,6 +30,8 @@
 * {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: var(--darkBlueColor);
+ /*    border: black solid ; */
 }
 
 header, footer {
@@ -96,37 +98,50 @@ nav a {
     padding: 20px;
     width: 40vw;
     min-width: 300px;
-    color: var(--mainTextColor);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.about4GS{
+    color: var(--secundaryTextColor);
+}
+
 .slogan{
     margin-bottom: 20px;
+    color: var(--mainTextColor);
+}
+.aboutUsText{
+    color: var(--secundaryTextColor);
+}
+
+.computerSticker{
+    width: 300px;
 }
 
 .whyUs{
     padding: max(5vw, 20px);
+    display: flex;
 }
 
 .whyUsContainer{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    padding: 50px;
-    font-size: 24px;
+    flex-direction: column;
+    padding: 0px;
 }
 
 .whyUsContainer p{
+    margin-top: 50px;
     width: 70vw;
     line-height: 40px;
- 
+    width: 90%;
+    font-size: 24px;
 }
 
 .whyUsContainer span{
     font-weight: bold;
-    
 }
 
 .values{
@@ -172,10 +187,8 @@ nav a {
 
 .sectionTitle{
     font-size: 36px;
-    font-weight: bold;
+    font-weight: lighter;
     letter-spacing: 4px;
-    text-transform: ;
-
 }
 
 .team{
@@ -204,12 +217,12 @@ nav a {
 
 .bannerImage{
     position: absolute;
-    top: 0; /* Position at the top of the person card */
-    left: 0; /* Align with the left edge of the person card */
+    top: 0; 
+    left: 0; 
     right: 0;
-    background-image: url(../../images/personCardBg.png);
     height: 130px;
     width: 100%;
+    background-image: url(../../images/personCardBg.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -222,5 +235,52 @@ nav a {
 }
 
 .person p{
-margin-top: 20px;
+    margin-top: 20px;
+}
+
+.contacts{
+    background-color: var(--quoteBgColor);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(229,231,235,1) 100%);
+    padding: max(5vw, 20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contacts h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.contacts p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+button{
+    background-color: var(--btnColor);
+    border:transparent;
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin: 30px 0;
+    color: var(--mainTextColor);
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: var(--mainTextColor);
+    color:  var(--btnColor); 
+    border: #3882F6 solid 1.5px;
+}
+
+.contactSticker{
+   width: 250px;
+   /*  margin-right: 100px; */ 
+}
+
+.contactsContent{
+    align-self: center;
+    justify-self: center;
 }
