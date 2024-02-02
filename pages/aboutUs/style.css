@@ -49,11 +49,13 @@ header {
     justify-content: space-between;
 }
 
-.logo {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: #f9faf8
+.logo img{
+  height: 60px;
+  margin: 5px;
+  transition: 0.3s ease-in-out;
+}
+.logo img:hover{
+  transform: scale(1.03);
 }
 
 
@@ -118,6 +120,13 @@ nav a {
 
 .whyUsContainer p{
     width: 70vw;
+    line-height: 40px;
+ 
+}
+
+.whyUsContainer span{
+    font-weight: bold;
+    
 }
 
 .values{
@@ -131,7 +140,7 @@ nav a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
     flex-wrap: wrap;
 }
 
@@ -140,7 +149,14 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: light;
+}
+
+.iconAndText p{
+    margin-top: 20px;
+    width: 300px;
+    text-align: center;
 }
 
 .values img{
@@ -157,6 +173,9 @@ nav a {
 .sectionTitle{
     font-size: 36px;
     font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: ;
+
 }
 
 .team{
@@ -170,6 +189,7 @@ nav a {
 }
 
 .person{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,9 +198,29 @@ nav a {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
+    box-shadow: 0rem 0.125rem 0.5rem 0rem var(--darkBlueColor);
+    overflow: hidden;
+}
+
+.bannerImage{
+    position: absolute;
+    top: 0; /* Position at the top of the person card */
+    left: 0; /* Align with the left edge of the person card */
+    right: 0;
+    background-image: url(../../images/personCardBg.png);
+    height: 130px;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .person img{
     width: 200px;
     border-radius: 50%;
     border: var(--darkBlueColor) 7px solid;
+    clip-path: circle(200px at center);
+}
+
+.person p{
+margin-top: 20px;
 }
