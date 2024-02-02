@@ -216,7 +216,7 @@ nav a.nav-selected {
 }
 
 .service-first-section-text p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   color: black;
   margin-bottom: 0.5rem;
 }
@@ -231,7 +231,7 @@ nav a.nav-selected {
   object-fit: cover;
 }
 .hero-btn {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto';
   font-size: 16px;
   letter-spacing: 2px;
   text-decoration: none;
@@ -444,7 +444,7 @@ a {
 }
 
 .card_work {
-  font-family: 'Heebo';
+  font-family: 'Roboto';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(
       rgba(0, 0, 0, var(--bg-filter-opacity)),
@@ -482,7 +482,7 @@ a {
 
 .card_work p {
   font-size: 0.75em;
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   margin-top: 0.5em;
   line-height: 2em;
 }
@@ -657,6 +657,33 @@ a {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1440px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pricing-box-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card {
+    grid-template-columns: 1f;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .info {
+    justify-content: center;
+    display: block;
+  }
+  .technologies {
+    display: block;
+  }
+  .cardss {
+    margin-top: 0rem;
+  }
+  .card_work {
+    max-width: calc(100vw - 4rem);
+    width: 25rem;
+  }
+}
 @media screen and (max-width: 1285px) {
   .cards-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -752,6 +779,18 @@ a {
 }
 
 @media screen and (max-width: 450px) {
+  *,
+  *::before,
+  *::after {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+  .project_we_are_proud {
+    margin-top: -20rem;
+  }
   .info {
     display: block;
     text-align: center;
@@ -763,5 +802,60 @@ a {
   .technologies-img {
     flex-direction: column;
     align-items: center;
+  }
+  .logo {
+    margin-left: -100px;
+  }
+  .features-list {
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  *,
+  *::before,
+  *::after {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+  }
+
+  header {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100px !important;
+  }
+  .logo {
+    margin-left: -100px;
+  }
+
+  .info {
+    display: block;
+    text-align: center;
+    margin-top: 55rem;
+  }
+  .info h2 {
+    margin-bottom: 10rem !important;
+  }
+  .technologies-img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .pricing-box h5 {
+    text-transform: uppercase;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .features-list {
+    align-items: center !important;
   }
 }
