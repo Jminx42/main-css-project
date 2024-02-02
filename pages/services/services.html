@@ -8,7 +8,11 @@
   </head>
   <body>
     <header>
-      <div class="logo">4 Geek Solution</div>
+      <img
+        class="logo"
+        src="../../assets/images/4geekLogoWhite.png"
+        alt="logo"
+      />
       <nav>
         <ul>
           <li><a href="#">About us</a></li>
@@ -17,16 +21,16 @@
         </ul>
       </nav>
     </header>
-    <main class="about-main">
-      <section class="about-hero container-wide">
-        <div class="about-hero-content container">
-          <div class="about-hero-text">
+    <main class="service-main">
+      <section class="service-first-section container-wide">
+        <div class="service-first-section-content container">
+          <div class="service-first-section-text">
             <h1>
               Bring Your Ideas<br />
               We Will Build You a Website
             </h1>
             <p>4 Geek Solution Top-Notch Custom Software Development</p>
-            <a href="./pricing.html"
+            <a href="./contact.html"
               ><button class="hero-btn button">Contact Us</button></a
             >
           </div>
@@ -320,10 +324,7 @@
         </section>
         <section class="cards-wrapper">
           <div class="card-grid-space">
-            <a
-              class="card_work"
-              style="--bg-img: url('../../assets/images/cover-small.png')"
-            >
+            <a class="card_work" id="first_card">
               <div>
                 <h1>Klatch Landing Page</h1>
                 <div class="date">2023</div>
@@ -334,10 +335,7 @@
             </a>
           </div>
           <div class="card-grid-space">
-            <a
-              class="card_work"
-              style="--bg-img: url('../../assets/images/ui-ux-design.jpg')"
-            >
+            <a class="card_work" id="second_card">
               <div>
                 <h1>START POINT Summit</h1>
                 <div class="date">2023</div>
@@ -348,12 +346,7 @@
             </a>
           </div>
           <div class="card-grid-space">
-            <a
-              class="card_work"
-              style="
-                --bg-img: url('../../assets/images/project-management.jpg');
-              "
-            >
+            <a class="card_work" id="third_card">
               <div>
                 <h1>SKYPRO</h1>
                 <div class="date">2023</div>
@@ -364,11 +357,7 @@
             </a>
           </div>
           <div class="card-grid-space">
-            <a
-              class="card_work"
-              href="https://codetheweb.blog/2017/10/14/links-images-about-file-paths/"
-              style="--bg-img: url('../../assets/images/cover-small-5-.png')"
-            >
+            <a class="card_work" id="forth_card">
               <div>
                 <h1>Tourism of Alentejo and Ribatejo</h1>
                 <div class="date">2023</div>
@@ -379,23 +368,61 @@
             </a>
           </div>
         </section>
-        <section class="partners container">
-          <div class="partners-content container">
-            <h2 class="partners-header-text">We are specialized</h2>
-            <div class="partners-img">
-              <a href="https://react.dev/" target="_blank"
-                ><img src="../../assets/images/react.png"
-              /></a>
-              <a href="https://angular.io/" target="_blank"
+        <h1 class="text-center">Pick the best plan for you</h1>
+
+        <div class="pricing-box-container">
+          <div class="pricing-box text-center">
+            <h5>Free</h5>
+            <p class="price"><sup>$</sup>0<sub>/mo</sub></p>
+            <ul class="features-list">
+              <li><strong>1</strong> Project</li>
+              <li><strong>5</strong> Team Members</li>
+              <li><strong>50</strong> Personal Projects</li>
+              <li><strong>5,000</strong> Messages</li>
+            </ul>
+            <button class="btn-primary">Get Started</button>
+          </div>
+
+          <div class="pricing-box pricing-box-bg-image text-center">
+            <h5>Premium</h5>
+            <p class="price"><sup>$</sup>39<sub>/mo</sub></p>
+            <ul class="features-list">
+              <li><strong>5</strong> Project</li>
+              <li><strong>20</strong> Team Members</li>
+              <li><strong>100</strong> Personal Projects</li>
+              <li><strong>15,000</strong> Messages</li>
+            </ul>
+            <button class="btn-primary">Get Started</button>
+          </div>
+
+          <div class="pricing-box text-center">
+            <h5>Platinum</h5>
+            <p class="price"><sup>$</sup>89<sub>/mo</sub></p>
+            <ul class="features-list">
+              <li><strong>25</strong> Project</li>
+              <li><strong>50</strong> Team Members</li>
+              <li><strong>500</strong> Personal Projects</li>
+              <li><strong>50,000</strong> Messages</li>
+            </ul>
+            <button class="btn-primary">Get Started</button>
+          </div>
+        </div>
+
+        <section class="technologies container">
+          <div class="technologies-content container">
+            <h2 class="technologies-header-text">We are specialized</h2>
+            <div class="technologies-img">
+              <a target="_blank"><img src="../../assets/images/react.png" /></a>
+              <a target="_blank"
                 ><img src="../../assets/images/angular.png"
               /></a>
-              <a href="https://www.mongodb.com/" target="_blank"
+              <a target="_blank"
                 ><img src="../../assets/images/mongodb.png"
               /></a>
-              <a href="https://nodejs.org/en" target="_blank"
+              <a target="_blank"
                 ><img src="../../assets/images/node-js.png"
               /></a>
-              <a href="https://flutter.dev/" target="_blank"
+              <a target="_blank"
                 ><img src="../../assets/images/flutter.png"
               /></a>
             </div>
