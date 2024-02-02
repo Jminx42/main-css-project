@@ -1,1 +1,186 @@
 /* About Us CSS */
+:root {
+    --darkBlueColor: #1F2937;
+    --mainTextColor: #F9FAF8;
+    --secundaryTextColor: #E5E7EB;
+    --btnColor: #3882F6;
+    --quoteBgColor: #E5E7EB;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
+    font-style: italic;
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: #1f2937;   
+}
+
+footer p {
+    text-align: center;
+    font-size: 19px;
+    color: #e5e7eb;
+    padding: 30px 0;
+}
+
+header {
+    padding: 3px 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+    list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.aboutUs{
+    height: clamp(250px, 40vw + 1px , 300px);
+    padding: max(5vw, 20px);
+    display: flex;
+    background-image: url(../../images/teamDesk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   /*  margin-bottom: 50px; */
+}
+
+.aboutUsContainer{
+    background-color: #e5e7eb32;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    width: 40vw;
+    min-width: 300px;
+    color: var(--mainTextColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slogan{
+    margin-bottom: 20px;
+}
+
+.whyUs{
+    padding: max(5vw, 20px);
+}
+
+.whyUsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 24px;
+}
+
+.whyUsContainer p{
+    width: 70vw;
+}
+
+.values{
+    padding: max(5vw, 20px);
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column; 
+}
+
+.valuesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.iconAndText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.values img{
+    width:160px;
+    margin: 10px;
+    margin-bottom: 25px;
+    transition: 0.3s ease-in;
+}
+
+.values img:hover{
+    transform: scale(1.1);
+}
+
+.sectionTitle{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.team{
+    padding: max(5vw, 20px);
+}
+
+.teamContainer{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--quoteBgColor);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.person img{
+    width: 200px;
+    border-radius: 50%;
+    border: var(--darkBlueColor) 7px solid;
+}
