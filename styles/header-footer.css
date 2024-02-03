@@ -141,7 +141,7 @@
       transition: opacity 250ms ease-in-out 250ms;
   }
     
-  @media only screen and (min-width: 800px) and (max-width: 1024px) {
+  @media screen and (min-width: 800px) {
      .nav-toggle-label {
         display: none;
       }
