@@ -114,8 +114,7 @@ main {
   border-radius: 5px;
   justify-content: space-between;
   gap: 70px;
-  width: 90%;
-  max-width: max-content;
+  width: 700px;
   align-items: center;
 }
 

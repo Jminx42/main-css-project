@@ -42,6 +42,7 @@
   .call-to-action {
     flex-direction: column;
     gap: 20px;
+    width: 200px
   }
 
   .call-to-action aside {
