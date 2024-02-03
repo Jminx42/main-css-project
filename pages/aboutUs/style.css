@@ -125,7 +125,7 @@
   line-height: 40px;
   width: 90%;
   font-size: 24px;
-  text-align: center;
+
 }
 
 .whyUsContainer span {
@@ -140,6 +140,7 @@
     .whyUsContainer p {
         width: 90%;
         font-size: 18px;
+        text-align: center;
     }
     .whyUsContainer {
 
