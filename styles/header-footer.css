@@ -148,8 +148,8 @@ nav a:hover {
   }
 
   header {
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    display: flex;
+    justify-content: space-around;
   }
   .logo {
     grid-column: 2 / 3;
