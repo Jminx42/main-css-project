@@ -10,8 +10,8 @@ ul {
   list-style-type: none;
 }
 
-.main {
-  padding: 0 150px;
+main {
+  padding: 100px 0 0;
 }
 
 .faq-container,
@@ -223,7 +223,7 @@ form.contact input[type="submit"]:hover {
   transition: all 0.3s;
 }
 
-.faq .faq-question:focus~.faq-answer {
+.faq .faq-question:focus ~ .faq-answer {
   display: inline-block;
 }
 
