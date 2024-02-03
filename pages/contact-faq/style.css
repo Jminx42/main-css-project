@@ -20,6 +20,7 @@
 
 * {
   box-sizing: border-box;
+  color: unset;
 }
 
 a {
@@ -172,6 +173,7 @@ form.contact .form-group {
   flex-direction: column;
   gap: 5px;
   width: 100%;
+  border: none;
 }
 
 form.contact .form-group label {
