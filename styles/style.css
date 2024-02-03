@@ -1,21 +1,25 @@
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+  src: url(../assets/fonts/Roboto/Roboto-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
+  src: url(../assets/fonts/Roboto/Roboto-LightItalic.ttf) format("truetype");
   font-style: italic;
   font-weight: light;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf) format("truetype");
   font-style: normal;
+}
+
+*{
+  font-family: "Roboto";
 }
 
 .jumbotron {
@@ -24,7 +28,7 @@
   align-items: center;
   background-color: #1f2937;
   flex-basis: 50%;
-  padding: 80px 150px;
+  padding: 50px 150px;
   margin-bottom: 50px;
 }
 
