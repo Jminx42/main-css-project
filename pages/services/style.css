@@ -28,8 +28,6 @@
   min-height: 17rem;
   max-width: 100%;
   margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .technologies-content {
@@ -696,7 +694,7 @@ a {
     margin-bottom: 0.5rem;
   }
   .project_we_are_proud {
-    margin-top: -20rem;
+    margin-top: -50rem;
   }
   .info {
     display: block;
@@ -724,6 +722,9 @@ a {
     margin: 0;
     text-align: center;
     padding: 0;
+  }
+  .project_we_are_proud {
+    margin-top: -50rem;
   }
   .service-first-section-text {
     margin-top: 8rem;
