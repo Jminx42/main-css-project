@@ -18,7 +18,7 @@
   font-style: normal;
 }
 
-*{
+* {
   font-family: "Roboto";
 }
 
@@ -27,7 +27,6 @@ main {
 }
 
 .jumbotron {
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,8 +37,7 @@ main {
 }
 
 .jumbotron .first-section {
-    padding-right: 30px;
-
+  padding-right: 30px;
 }
 
 .jumbotron h1 {
@@ -52,14 +50,14 @@ main {
 }
 
 .jumbotron picture img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .jumbotron p {
-    font-size: 19px;
-    color: #e5e7eb;
-    margin-top: 0;
-    margin-bottom: 10px;
+  font-size: 19px;
+  color: #e5e7eb;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .random-info {
@@ -68,41 +66,34 @@ main {
 }
 
 .random-info h4 {
-    font-size: 36px;
-    color: #1f2937;
-
+  font-size: 36px;
+  color: #1f2937;
 }
 
 .random-info .container {
-    display: flex;
-    justify-content: center;
-
-
+  display: flex;
+  justify-content: center;
 }
 
 .random-info .container div {
-    padding: 10px;
-    width: 150px;
-    margin: 20px 10px;
-
+  padding: 10px;
+  width: 150px;
+  margin: 20px 10px;
 }
 
 .random-info .container div img {
-    border-radius: 5px;
-    border: 2px solid #3992f6;
-
+  border-radius: 5px;
+  border: 2px solid #3992f6;
 }
 
 .quote {
-    padding: 100px 200px;
-    font-family: 'Roboto', sans-serif;
-    background-color: #e5e7eb;
-    color: #1f2937;
-    font-size: 36px;
-    font-style: italic;
-    margin-bottom: 50px;
-
-
+  padding: 100px 200px;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 50px;
 }
 
 .quote-author {
@@ -112,15 +103,19 @@ main {
 }
 
 .call-to-action {
-    display: flex;
-    background-color: #3992f6;
-    margin: 50px 100px;
-    padding: 50px 100px;
-    border-radius: 5px;
-    justify-content: space-between;
+  display: flex;
+  background-color: #3992f6;
+  margin: 50px auto;
+  padding: 50px 60px;
+  border-radius: 5px;
+  justify-content: space-between;
+  gap: 70px;
+  width: 90%;
+  max-width: max-content;
+  align-items: center;
 }
 
-.call-to-action div h6 {
+.call-to-action aside h6 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -128,32 +123,31 @@ main {
   margin: 0;
 }
 
-.call-to-action div p {
+.call-to-action aside p {
   font-size: 18px;
   color: #e5e7eb;
   margin: 0;
 }
 
 .button-link {
-    background-color: #3992f6;
-    border-radius: 5px;
-    color: #e5e7eb;
-    font-weight: bold;
-    padding: 5px 25px;
-    cursor: pointer;
-    text-decoration: none;
-    border: 0;
+  background-color: #3992f6;
+  border-radius: 5px;
+  color: #e5e7eb;
+  font-weight: bold;
+  padding: 5px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
 }
 
 .call-to-action .button-link {
-    border: 2px solid #e5e7eb;
-    align-self: center;
-
+  border: 2px solid #e5e7eb;
+  align-self: center;
 }
 
 .information-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
 }
