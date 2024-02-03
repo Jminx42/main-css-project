@@ -11,12 +11,8 @@ The team:
 ## Table of Contents
 
 - [Description](#description)
-- [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Preview Link](#preview-link)
 
 ## Description
 
@@ -30,6 +26,6 @@ We have decided to call our business "4Geek Solution".
 - HTML5
 - CSS3
 
-## Preview link:
+## Preview Link
 
 https://jminx42.github.io/main-css-project/
