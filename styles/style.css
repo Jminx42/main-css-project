@@ -22,7 +22,12 @@
   font-family: "Roboto";
 }
 
+main {
+  padding-top: 50px;
+}
+
 .jumbotron {
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,11 +125,13 @@
   font-weight: bold;
   font-size: 24px;
   color: #f9faf8;
+  margin: 0;
 }
 
 .call-to-action div p {
   font-size: 18px;
   color: #e5e7eb;
+  margin: 0;
 }
 
 .button-link {
