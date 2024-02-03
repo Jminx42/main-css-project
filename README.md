@@ -1,5 +1,7 @@
 # Main CSS project - 4Geek Solution
 
+![Project Logo](./images/4geekLogoWhite.png)
+
 The team:
 - Jessica Ferreira
 - Maria Carvalho
@@ -30,4 +32,4 @@ We have decided to call our business "4Geek Solution".
 
 ## Preview link:
 
-
+https://jminx42.github.io/main-css-project/
