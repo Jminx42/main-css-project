@@ -28,6 +28,8 @@
   min-height: 17rem;
   max-width: 100%;
   margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .technologies-content {
@@ -150,7 +152,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
- 
+
   font-family: 'Open Sans';
 }
 
@@ -515,7 +517,7 @@ a {
 .btn-primary {
   border-radius: 25px;
   border: none;
-  background-color: #ec1362;
+  background-color: #3992f6;
   color: #ffffff;
   cursor: pointer;
   padding: 10px 15px;
@@ -677,6 +679,22 @@ a {
     text-align: center;
     padding: 0;
   }
+
+  .service-first-section-text {
+    margin-top: 10rem;
+  }
+  .service-first-section-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-first-section-text p {
+    font-family: 'Roboto';
+    color: white;
+    margin-bottom: 0.5rem;
+  }
   .project_we_are_proud {
     margin-top: -20rem;
   }
@@ -707,7 +725,21 @@ a {
     text-align: center;
     padding: 0;
   }
+  .service-first-section-text {
+    margin-top: 8rem;
+  }
+  .service-first-section-text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
 
+  .service-first-section-text p {
+    font-family: 'Roboto';
+    color: white;
+    margin-bottom: 0.5rem;
+  }
   .info {
     display: block;
     text-align: center;
