@@ -1,6 +1,6 @@
 # Main CSS project - 4Geek Solution
 
-![Project Logo](./images/4geekLogoWhite.png)
+![Project Logo](./assets/images/4geekLogoWhite.png)
 
 The team:
 - Jessica Ferreira
