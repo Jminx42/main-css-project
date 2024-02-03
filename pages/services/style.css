@@ -170,7 +170,7 @@
 }
 
 #forth_card {
-  --bg-img: url('../../assets/images/cover-small-5-.png');
+  --bg-img: url('../../assets/images/tourism.jpg');
   background-image: var(--bg-img);
 }
 
@@ -349,6 +349,7 @@ a {
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
+  color: #fff;
 }
 
 .card_work p {
