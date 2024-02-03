@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/header-footer.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>About Us</title>
 </head>
 <body>
     <header>
         <div class="logo">
-           <a href="/"><img src="../../images/4geekLogoWhite.png" alt="4GeekSolution Logo"></a> 
+            <a href="../../index.html">
+                <img src="../../images/4geekLogoWhite.png">
+            </a>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Header link one</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
+        <input id="nav-toggle-cb" type="checkbox" tabindex="-1"></input>
+        <label class="nav-toggle" for="nav-toggle-cb">
+            <i class="bi bi-list"></i>
+        </label>
+        <nav class="nav-menu">
+            <ul class="nav-menu__list">
+                <li><a href="../../pages/services/services.html">Services</a></li>
+                <li><a href="../../pages/aboutUs/index.html">About us</a></li>
+                <li><a href="../../pages/contact-faq/index.html">Contact us</a></li>
             </ul>
         </nav>
+
     </header>
 
     <main>
@@ -91,14 +100,19 @@
             <div class="contactsContent">
                 <h3>Do you want us to take the leed of your new project?</h3>
                 <p>Get in contact with us and let's make it happen!</p>
-                <a href="/contacts"><button> Go to Contacts</button></a>
+                <a href="../contact-faq/index.html">
+                    <button> Go to Contacts</button>
+                </a>
             </div>
         </section>
     </main>
 
     <footer>
         <p>
-            Copyright © 2024 4GEEK Solution
+            <a href="../aboutUs/index.html">
+                4Geek Solution 2024
+                &copy;
+            </a>
         </p>
     </footer>
 </body>

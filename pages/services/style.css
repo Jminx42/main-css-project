@@ -24,109 +24,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-header {
-  padding: 3px 150px 0 150px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 24px;
-  color: #f9faf8;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-nav li {
-  list-style: none;
-  margin-left: 1rem;
-  padding: 0;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav ul li a:hover,
-nav a.nav-selected {
-  background-color: red;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
-}
-
-header,
-footer {
-  background-color: #1f2937;
-}
-/* Header Section */
-
-/* Navbar */
-
-.navbar {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-.navbar-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-}
-
-.navbar-logo {
-  display: flex;
-  flex: 1;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.navbar-logo-text a {
-  font-size: var(--header-logo-font-size);
-  font-weight: var(--hero-main-text-font-weight);
-  color: var(--header-logo-text-color);
-  text-decoration: none;
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar ul li {
-  margin-left: 1rem;
-}
-
-.navbar ul li a {
-  color: var(--header-link-text-color);
-  text-decoration: none;
-  padding: 0.5rem 0.5rem;
-}
-
-.navbar ul li a:hover,
-nav a.nav-selected {
-  background-color: var(--button-color);
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
 }
 
 /* Testimonial Section */
@@ -160,10 +58,12 @@ nav a.nav-selected {
   justify-content: space-around;
   align-items: center;
 }
+
 .partners-img img {
   width: 40%;
   height: 40%;
 }
+
 .partners-img a {
   min-width: 3rem;
   max-width: 15rem;
@@ -225,6 +125,7 @@ nav a.nav-selected {
   height: 100%;
   object-fit: cover;
 }
+
 .hero-btn {
   margin-top: 0.5rem;
   background-color: var(--button-color);
@@ -238,6 +139,7 @@ nav a.nav-selected {
   border-style: solid;
   color: var(--button-color);
 }
+
 .about-main {
   min-width: 100%;
   color: var(--info-section-header-text-color);
@@ -376,18 +278,4 @@ nav a.nav-selected {
   left: 50px;
   z-index: 0;
   transition: transform 0.3s ease-out;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-
-  background-color: #1f2937;
-  color: var(--header-link-text-color);
-  max-width: 100%;
-  min-height: 100%;
-  padding: 2rem;
 }

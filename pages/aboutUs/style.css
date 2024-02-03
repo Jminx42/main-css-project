@@ -34,56 +34,8 @@
  /*    border: black solid ; */
 }
 
-header, footer {
-    background-color: #1f2937;   
-}
-
-footer p {
-    text-align: center;
-    font-size: 19px;
-    color: #e5e7eb;
-    padding: 30px 0;
-}
-
-header {
-    padding: 3px 150px 0 150px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo img{
-  height: 60px;
-  margin: 5px;
-  transition: 0.3s ease-in-out;
-}
-.logo img:hover{
-  transform: scale(1.03);
-}
-
-
-nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-    list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-nav a {
-	color: #fff;
-	text-decoration: none;
-}
-
-
 .aboutUs{
-    height: clamp(250px, 40vw + 1px , 300px);
+    height: clamp(250px, 40vw + 1px , 400px);
     padding: max(5vw, 20px);
     display: flex;
     background-image: url(../../images/teamDesk.png);

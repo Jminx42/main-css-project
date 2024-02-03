@@ -1,0 +1,248 @@
+/* Defining font faces */
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+    font-style: normal;
+}
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header and footer styles */
+header,
+footer {
+    background-color: #1f2937;
+}
+
+header {
+    padding: 3px 150px 0 150px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer paragraph styles */
+footer p {
+    text-align: center;
+    font-size: 19px;
+    color: #e5e7eb;
+    padding: 30px 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* Logo styles */
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* Logo image styles */
+.logo img {
+    height: 40px;
+    margin: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.03);
+}
+
+/* Navigation menu styles */
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navigation toggle styles */
+#nav-toggle-cb {
+    display: none;
+}
+
+.nav-toggle {
+    display: none;
+    height: 70px;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium screens */
+    header {
+        padding: 3px 10% 0 10%;
+    }
+
+    :root {
+        --header-height: 80px;
+    }
+
+    #nav-toggle-cb {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: var(--header-height);
+        height: var(--header-height);
+        cursor: pointer;
+        height: 70px;
+    }
+
+    .nav-menu ul {
+        display: block;
+        width: max-content;
+        padding-left: 30px;
+    }
+
+    .nav-menu {
+        position: absolute;
+        z-index: 99;
+        top: 11.5%;
+        width: 150px;
+        right: 10%;
+        background-color: #e5e7eb;
+        transform: scale(1, 0);
+        transform-origin: right;
+        transition: transform .3s ease-in-out;
+        border-radius: 3px;
+        padding-top: 15px;
+
+    }
+
+    .nav-menu__list li {
+        padding: 5px;
+        color: #1f2937;
+        height: 35px;
+    }
+
+    .nav-menu__list li a {
+        display: inline-block;
+        text-align: right;
+        opacity: 0;
+    }
+
+
+    input:checked~nav {
+        transform: scale(1, 1);
+    }
+
+    input:checked~nav li a {
+        opacity: 1;
+        transition: opacity .5s ease-in-out .5s;
+        color: #1f2937;
+    }
+
+    input~.nav-toggle i {
+        transition: rotate .5s;
+        color: #e5e7eb;
+    }
+
+    input:checked~.nav-toggle i {
+        transform: rotate(90deg);
+        color: #e5e7eb;
+
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for even smaller screens */
+    header {
+        padding: 3px 10% 0 10%;
+    }
+
+    :root {
+        --header-height: 80px;
+    }
+
+    .nav-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: var(--header-height);
+        height: var(--header-height);
+        cursor: pointer;
+    }
+
+   .nav-menu {
+    right: 8%;
+   }
+
+   .nav-menu ul {
+    display: block;
+    width: max-content;
+    padding-left: 30px;
+}
+
+.nav-menu {
+    position: absolute;
+    z-index: 99;
+    top: 13%;
+    width: 150px;
+    right: 8%;
+    background-color: #e5e7eb;
+    transform: scale(1, 0);
+    transform-origin: right;
+    transition: transform .3s ease-in-out;
+    border-radius: 3px;
+    padding-top: 15px;
+   
+
+}
+.nav-menu__list li {
+    padding: 5px;
+    color: #1f2937;
+    height: 35px;
+}
+
+
+input:checked~nav {
+    transform: scale(1, 1);
+}
+
+input:checked~nav li a {
+    opacity: 1;
+    transition: opacity .5s ease-in-out .5s;
+    color: #1f2937;
+}
+
+input~.nav-toggle i {
+    transition: rotate .5s;
+    color: #e5e7eb;
+}
+
+input:checked~.nav-toggle i {
+    transform: rotate(90deg);
+    color: #e5e7eb;
+}
+
+
+}

@@ -118,12 +118,15 @@ form.contact h3 {
 .social-media-icons li a.fb:hover {
   background-color: #3b5999;
 }
+
 .social-media-icons li a.x:hover {
   background-color: #000;
 }
+
 .social-media-icons li a.ig:hover {
   background-color: #f52129;
 }
+
 .social-media-icons li a.yt:hover {
   background-color: #f00;
 }
@@ -220,7 +223,7 @@ form.contact input[type="submit"]:hover {
   transition: all 0.3s;
 }
 
-.faq .faq-question:focus ~ .faq-answer {
+.faq .faq-question:focus~.faq-answer {
   display: inline-block;
 }
 
@@ -248,10 +251,12 @@ form.contact input[type="submit"]:hover {
     align-items: center;
     gap: 50px;
   }
+
   .contact-info-container {
     width: 100%;
     order: 1;
   }
+
   form.contact {
     width: 100%;
   }
