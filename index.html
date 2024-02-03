@@ -14,24 +14,20 @@
 
 <body>
     <header>
-        <div class="logo">
-            <a href="./index.html">
-                <img src="./assets/images/4geekLogoWhite.png">
-            </a>
-        </div>
-        <input id="nav-toggle-cb" type="checkbox" tabindex="-1"></input>
-        <label class="nav-toggle" for="nav-toggle-cb">
-            <i class="bi bi-list"></i>
-        </label>
-        <nav class="nav-menu">
-            <ul class="nav-menu__list">
-                <li><a href="./pages/services/services.html">SERVICES</a></li>
-                <li><a href="./pages/aboutUs/index.html">ABOUT US</a></li>
-                <li><a href="./pages/contact-faq/index.html">CONTACT US</a></li>
-            </ul>
+        <a href="/"><img class="logo" src="../../assets/images/4geekLogoWhite.png"alt="logo"/></a> 
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/pages/services/services.html">Services</a></li>
+            <li><a href="/pages/aboutUs/index.html">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </nav>
-
-    </header>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
 
     <main>
         <section class="jumbotron">
@@ -108,13 +104,7 @@
     </main>
 
     <footer>
-        <p>
-            <a href="./index.html">
-                4Geek Solution 2024
-                &copy;
-            </a>
-
-        </p>
+      <p>Copyright © 2024 4GEEK Solution</p>
     </footer>
 </body>
 
